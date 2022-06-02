@@ -1,0 +1,2 @@
+#!/bin/ba
+gcc -s $CFILE
