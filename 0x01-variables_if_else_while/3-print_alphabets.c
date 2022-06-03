@@ -12,6 +12,7 @@
 
 int main(void)
 {
+	/* your code goes there */
   	int last = 122;
 	int first;
 
