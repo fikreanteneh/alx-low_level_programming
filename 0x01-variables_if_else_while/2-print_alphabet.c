@@ -1,22 +1,17 @@
-#include <stdlib.h>
-
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
+#include <stdio.h>
 
 /**
- * main - The code begins
+ * main - func 
  *
- * Return: always 0 if the code is correct
+ * It always return 0 if the code is correct
  */
-
 int main(void)
 {
-	int a;
+	int c;
 
-	for (a = 97; a <= 122; a++)
+	for (c = 97; c <= 122; c++)
 	{
-		putchar(a);
+		putchar(c);
 	}
 	printf("\n");
 	return (0);
