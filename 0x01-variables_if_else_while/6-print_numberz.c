@@ -18,7 +18,7 @@ int main(void)
 	{
 		putchar(digits);
 	}
-	putcha('\n');
+	putchar('\n');
 	
 	return (0);
 }	
