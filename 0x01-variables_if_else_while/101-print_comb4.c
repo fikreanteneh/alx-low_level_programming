@@ -7,17 +7,16 @@
  *
  * Return: Always 0 (Success)
  **/
-int main(void)
 {
-	int x, y, z;
+	int d, p, q;
 
-	for (x = '0'; x < '9'; x++)
+	for (d = '0'; d < '9'; d++)
 	{
-		for (y = '0' ; y <= '9'; y++)
+		for (p = d + 1; p <= '9'; p++)
 		{
-			for (z = '0' ; z <= '9'; z++)
+			for (q = p + 1; q <= '9'; q++)
 			{
-				if ((x < y) < z)
+				if ((p != d) != q)
 				{
 					putchar(d);
 					putchar(p);
