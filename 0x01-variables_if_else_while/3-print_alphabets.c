@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
@@ -13,7 +12,7 @@
 
 int main(void)
 {
-  int last = 122;
+  	int last = 122;
 	int first;
 
 	for (first = 97; first <= last; first++)
