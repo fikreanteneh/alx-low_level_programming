@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 
 /* more headers goes there */
 
@@ -9,9 +7,24 @@
 /**
  * main - The code begins
  *
- * Return: alway 0 if the code is correct
+ * It always return 0 if the code is correct
  */
 
 int main(void)
 {
+  	int last = 122;
+	int first;
 
+	for (first = 97; first <= last; first++)
+	{
+		putchar(first);
+
+		if (first == 122)
+		{
+			first = 64;
+			last = 90;
+		}
+	}
+	printf("\n");
+	return (0);
+}
