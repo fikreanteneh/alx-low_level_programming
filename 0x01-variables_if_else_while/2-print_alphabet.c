@@ -12,11 +12,11 @@
  */
 int main(void)
 {
-	int c;
+	int alpha;
 
-	for (c = 97; c <= 122; c++)
+	for (alpha = 97; alpha <= 122; alpha++)
 	{
-		putchar(c);
+		putchar(alpha);
 	}
 	printf("\n");
 	return (0);
