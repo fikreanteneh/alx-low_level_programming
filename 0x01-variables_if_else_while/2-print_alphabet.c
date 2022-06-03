@@ -8,7 +8,7 @@
 /**
  * main - the code begin
  *
- *
+ * prints lowercase alphabets
  *
  * It always return 0 if the code is correct
  */
