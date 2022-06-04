@@ -9,7 +9,6 @@
  *
  * Return: It always return 0 if the code is correct
  */
-
 int main(void)
 {
 	/* your code goes there */
