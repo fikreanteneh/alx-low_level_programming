@@ -3,7 +3,7 @@
 /**
  * main - The code begins
  *
- * It always return 0 if the code is correct
+ * Return: It always return 0 if the code is correct
  */
 
 int main(void)

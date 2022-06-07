@@ -3,37 +3,37 @@
 #include <time.h>
 
 /**
- * main - Entry point
+ * main - beginning function
  *
- * Return: Always 0 (Success)
+ * Return: Always 0 if the code is correct
  **/
 int main(void)
-{	
+{
 	/* your code goes there */
-   int x;
-   int y;
-   int z;
+	int a, b, c;
 
-    for (x = '0';x < '9';x++)
+	for (a = '0'; a < '9'; a++)
 	{
-		for (y = x+1 ; y <= '9'; y++)
+		for (b = a+1 ; b <= '9'; b++)
 		{
-		    for (z = y+1 ; z = '9'; z++)
-            {
-                if ((x < y) < z)
-                {
-                    putchar(x);
-                    putchar(y);
-                    putchar(z);
-                    if (x == '7' && y == '8' && z == '9')
-                        continue;
-                    putchar(',');
-                    putchar(' ');
-                }
+			for (c = b+1 ; c <= '9'; c++)
+			{
+				if ((a < b ) < c)
+				{
+					putchar(a);
+					putchar(b);
+					putchar(c);
+					if (a == '7' && b == '8' && c == '9')
+						continue;
+					putchar(',');
+					putchar(' ');
+				}
 			}
 		}
-    }
-    putchar('\n');
-    return (0);
-    }
+	}
 
+	putchar('\n');
+
+	return (0);
+
+}
