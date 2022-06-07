@@ -9,7 +9,7 @@
 
 int main(void)
 {
-	char *abc="_putchar";
+	char *abc = "_putchar";
 
 	while (*abc != '\0')
 	{
