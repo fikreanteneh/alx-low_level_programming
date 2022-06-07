@@ -10,15 +10,14 @@
 int main(void)
 {
 	int a;
-    for (a = 0; a <= 9; a++)
-    {
-    	int alpha;
-
-    	for (alpha = 97; alpha <= 122; alpha++)
-    	{
-    		putchar(alpha);
+	for (a = 0; a <= 9; a++)
+	{
+		int alpha;
+		for (alpha = 97; alpha <= 122; alpha++)
+		{
+			putchar(alpha);
+    		}
+	putchar("\n");
     	}
-    	putchar("\n");
-    }
 
 }
