@@ -1,4 +1,4 @@
-#include <main.h>
+#include <stdio.h>
 
 /**
  * main - The code begins
