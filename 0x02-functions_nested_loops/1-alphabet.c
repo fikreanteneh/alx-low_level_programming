@@ -3,10 +3,10 @@
 /**
  * main - The code begins
  * 
- * Return: returns noting
+ * Return: returns nothing
  */
 
-void print_alphabet(void);
+int main(void)
 {
 	int alpha;
 
@@ -17,4 +17,3 @@ void print_alphabet(void);
 	putchar("\n");
 
 }
-
