@@ -1,24 +1,24 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - The code begins
- * 
- * Return: Always return 0 if the code is correct
+ * print_alphabet_x10 - prints all lowercase letter 10 times
+ *
+ * Return: null.
  */
-
-
-int main(void)
+void print_alphabet_x10(void)
 {
-	int a;
-    for (a = 0; a <= 9; a++)
-    {
-    	int alpha;
+	int i = 0;
 
-    	for (alpha = 97; alpha <= 122; alpha++)
-    	{
-    		putchar(alpha);
-    	}
-    	putchar("\n");
-    }
+	while (i < 10)
+	{
+		int stop = 122, count = 97;
 
+		while (count <= stop)
+		{
+			_putchar(count);
+			count++;
+		}
+		_putchar('\n');
+		i++;
+	}
 }
