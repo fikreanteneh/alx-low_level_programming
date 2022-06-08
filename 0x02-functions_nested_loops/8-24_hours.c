@@ -22,7 +22,7 @@ void jack_bauer(void)
 				min1++;
 			}
 		}
-		minute = 0, mc = 48, mc1 = 48;
+		minute = 0, min2 = 48, min1 = 48;
 		(hour2 == 57) ? (hour2 = 48) : hour2++;
 		hour++;
 		if (hour % 10 == 0)
