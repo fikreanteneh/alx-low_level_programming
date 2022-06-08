@@ -8,7 +8,7 @@ int main(void)
 {
 	long int x = 1, y = 2, term = 0, sum;
 
-	printf("%li, %li", num1, num2);
+	printf("%li, %li", x, y);
 	while (term < 48)
 	{
 		sum = x + y;
