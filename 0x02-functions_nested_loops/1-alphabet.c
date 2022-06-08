@@ -12,8 +12,8 @@ void print_alphabet(void)
 
 	while (count <= stop)
 	{
-		_putchar(count);
+		putchar(count);
 		count++;
 	}
-	_putchar('\n');
+	putchar('\n');
 }
