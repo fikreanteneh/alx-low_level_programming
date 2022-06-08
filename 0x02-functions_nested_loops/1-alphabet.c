@@ -1,19 +1,19 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - The code begins
- * 
- * Return: returns nothing
+ * print_alphabet - print all lowercase letters
+ *
+ * Return: null.
  */
 
-int main(void)
+void print_alphabet(void)
 {
-	int alpha;
+	int stop = 122, count = 97;
 
-	for (alpha = 97; alpha <= 122; alpha++)
+	while (count <= stop)
 	{
-		putchar(alpha);
+		_putchar(count);
+		count++;
 	}
-	putchar("\n");
-
+	_putchar('\n');
 }
