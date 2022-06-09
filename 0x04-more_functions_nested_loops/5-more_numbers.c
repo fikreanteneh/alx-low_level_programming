@@ -4,13 +4,13 @@
  */
 void more_numbers(void)
 {
-	int i = 48, count = 0, c = 0;
+	int i = 48, b = 0, a = 0;
 
-	while (count < 10)
+	while (b < 10)
 	{
-		while (c <= 14)
+		while (a <= 14)
 		{
-			if (c > 9)
+			if (a > 9)
 			{
 				_putchar(49);
 				if (i == 10)
@@ -20,11 +20,11 @@ void more_numbers(void)
 			}
 			_putchar(i + '0');
 			i++;
-			c++;
+			a++;
 		}
 		i = 48;
-		c = 0;
-		count++;
+		a = 0;
+		b++;
 		_putchar('\n');
 	}
 }
