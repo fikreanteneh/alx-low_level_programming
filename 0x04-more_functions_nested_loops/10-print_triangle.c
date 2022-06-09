@@ -1,21 +1,21 @@
 #include "main.h"
 /**
- * print_triangle - draw triangle
- * @size: the size of the triangle
+ * print_triangle - print right triangle
+ * @size: size
  */
 void print_triangle(int size)
 {
-	int i, j, k;
+	int x, y, z;
 
 	if (size > 0)
 	{
-		for (i = 0; i < size; ++i)
+		for (x = 0; x < size; ++x)
 		{
-			for (j = 1; j < size - i; j++)
+			for (y = 1; y < size - x; y++)
 			{
 				_putchar(' ');
 			}
-			for (k = 0; k <= i; k++)
+			for (z = 0; z <= x; z++)
 			{
 				_putchar('#');
 			}
