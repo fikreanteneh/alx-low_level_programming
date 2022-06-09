@@ -12,28 +12,26 @@ int main(void)
 		if (a % 5 == 0 && a % 3 == 0)
 		{
 			printf("FizzBuzz");
-      printf(" ");
+      			printf(" ");
 		}
 		else if (a % 3 == 0)
 		{
 			printf("Fizz");
-      printf(" ");
+      			printf(" ");
 		}
 		else if (a % 5 == 0 && a != 100)
 		{
-      printf("Buzz");
-      printf(" ");
-    }
+      			printf("Buzz");
+      			printf(" ");
+    		}
 		else if (a == 100)
 		{
 		  printf("Buzz");
-		 }
-     else
-     {
-		 printf("%ia ", i);
-		 }
 		}
-
+     		else
+     		{
+		 	printf("%a ", a);
+		}
 	}
 	printf("\n");
 	return (0);
