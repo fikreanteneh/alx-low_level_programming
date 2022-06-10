@@ -1,30 +1,30 @@
 #include "main.h"
 /**
- * more_numbers - print 0 - 14
+ * more_numbers - print 0 - 14 numbers 10 times
  */
 void more_numbers(void)
 {
-	int i = 48, b = 0, a = 0;
+	int i = 0, count = 0, c = 0;
 
-	while (b < 10)
+	while (count < 10)
 	{
-		while (a <= 14)
+		while (c <= 14)
 		{
-			if (a > 9)
+			if (c > 9)
 			{
-				_putchar(49);
+				_putchar('1');
 				if (i == 10)
 				{
-					i = 48;
+					i = 0;
 				}
 			}
 			_putchar(i + '0');
 			i++;
-			a++;
+			c++;
 		}
-		i = 48;
-		a = 0;
-		b++;
+		i = 0;
+		c = 0;
+		count++;
 		_putchar('\n');
 	}
 }
