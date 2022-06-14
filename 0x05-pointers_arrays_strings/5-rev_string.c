@@ -6,21 +6,28 @@
  */
 void print_rev(char *s)
 {
+	char word;
+	
 	int x;
-  
-  int y;
+	
+	int y;
+	
+	int z;
 
 	x = 0;
+	
+	z = 0;
 
 	while (s[x] != '\0')
 	{
 		x++;
 	}
-
-	for (y = x - 1; y >= 0; y--)
+	z = x-1;
+	for (y =  0; y < z / 2; y++)
 	{
-		_putchar(s[y]);
+		word = s[y];
+		s[y] = s[z];
+		s[z--] = word;
 	}
-
-	_putchar('\n');
+		
 }
