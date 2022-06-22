@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * print_chessboard - function prints the chessboard
  * @a: array
